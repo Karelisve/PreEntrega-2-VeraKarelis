@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2? family= Kalam & family= Lato:ital,wght@0,400;1,300 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/*HEADER*/
+header {
+    background-color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    box-shadow:3px 8px 22px rgba(152, 36, 85, 0.5);
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 100px;
+
+}
+
+/*INDEX MAIN*/
+/*banner*/
+
+.banner {
+    background-image: url(../img/Getter\ \(4\).png);
+    background-size: cover;
+    padding: 100px;
+    
+}
+
+
+.banner-1 {
+    text-align: center;
+}
+
+.banner-1 h1 {
+    margin-bottom: 10px;
+    font-size: 5rem;
+    font-weight: 30px;
+    font-family: 'Kalam', cursiva;
+    
+}
+
+.banner-1 p {
+    margin: 40px 20px 20px;
+    font-size: 2rem;
+
+}
+
+.banner-2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.banner-2 a {
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
+    
+}
+
+.banner-2 a:hover {
+    color:rgb(152, 36, 85);
+    box-shadow:3px 8px 22px rgba(152, 36, 85, 0.5)
+}
+
+/*INDEX MAIN SECTION 2 */
+
+.info {
+    background-color: rgb(110, 155, 127);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.info-1 {
+    text-align: center;
+    margin: 30px;
+    margin-left: 20px;
+}
+
+.info-1 p {
+    margin-top: 10px;
+}
+
+.info-1 h2 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*INDEX MAIN SECTION 3*/
+.cards-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.cards-title h2 {
+    font-family: 'Kalam', cursiva;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.container .cards {
+    width: 330px;
+    height: 440px;
+    
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background-color:rgba(110, 155, 127, 0.5);
+    align-items: center;
+    
+}
+
+.container .cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
+}
+
+.container .cards img {
+    width: 260px;
+    height: 360px;
+}
+
+.container .cards h2 {
+    font-size: 18px;
+    color: black;
+    line-height: 1rem;
+}
+
+.container .cards button {
+    border-radius: 6px;
+    width: 100px;
+    color: rgb(18, 50, 18);
+    background-color: #fff;
+    margin: 8px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.container .cards button:hover {
+    background-color: rgba(152, 36, 85, 0.5);
+    color: #fff;
+}
+
+.card-link {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card-link a {
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color:#fff;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+}
+
+.card-link a:hover {
+    color: rgb(152, 36, 85);
+    box-shadow:3px 8px 22px rgba(152, 36, 85, 0.5)
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: rgba(110, 155, 127, 0.2);
+    width: 100%;
+    height: auto;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .social-title {
+    text-align: center;
+}
+
+footer .social img {
+    width: 20px;
+    height: 20px;
+}
+
+footer .social h3 {
+    font-size: 30px;
+    padding: 20px 10px 5px 10px;
+    font-family: 'Kalam', cursiva;
+
+}
+
+footer .social p {
+    padding-bottom: 20px;
+    font-family:'Kalam', cursiva; 
+}
+
+footer .social ul {
+    display: flex;
+    align-items: center;
+}
+
+footer .social ul li {
+    margin: 0px 10px 10px 10px;
+    list-style-type: none;
+}
+
+footer .autor {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* PAGE CONTACT*/
+/*Form*/
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(110, 155, 127);
+    color: #fff;
+    padding: 30px;
+}
+
+.contact-title h1 {
+    font-size: 30px;
+    font-family: 'Kalam', cursiva;
+    letter-spacing: 0.03rem;
+}
+
+.contact-title p {
+    color: black;
+}
+
+.form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 100px;
+    margin: 30px auto;
+    box-shadow: 3px 8px 30px rgba(9, 2, 5, 0.4);
+    border-radius: 8px;
+}
+
+.form .inputs {
+    display: flex;
+    border: none;
+    padding: 20px;
+    border-bottom: 1px solid rgb(18, 50, 18);
+}
+
+input, textarea {
+    background-color: rgba(110, 155, 127, 0.2);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(6, 2, 4, 0.3);
+    width: 450px;
+    margin: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+label {
+    margin: 20px 10px 10px;
+    font-family: 'Kalam', cursiva;
+    font-size: 1rem;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.input-button button {
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color:#fff;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+}
+
+.input-button button:hover {
+    color: rgb(152, 36, 85);
+    box-shadow:3px 8px 22px rgba(152, 36, 85, 0.5);
+}
+
+/*Contact details*/
+.container-details {
+    display: flex;
+    justify-content: center;
+}
+.contact-details {
+    margin: 20px;
+    
+}
+
+.contact-details h2 {
+    background-color: rgba(110, 155, 127, 0.2);
+    width: 500px;
+    text-align: center;
+    font-family: 'Kalam', cursiva;
+    padding: 10px;
+}
+
+.contact-details .details-1 {
+    width: 500px;
+    background-color: rgb(110, 155, 127);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.details-1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.details-1 p {
+    margin: 10px;
+}
+
+.iframe-map {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*PAGE PRODUCTS*/
+
+
+.product-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(110, 155, 127);
+    color: #fff;
+    padding: 30px;
+}
+
+.product-title h1 {
+    font-size: 30px;
+    font-family: 'Kalam', cursiva;
+    letter-spacing: 0.03rem;
+    margin-bottom: 10px;
+}
+
+.container-product {
+    width: 2500px;
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 90px;
+
+}
+
+.container-product .card-p {
+    width: 530px;
+    height: 360px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background-color:rgba(110, 155, 127, 0.5);
+    align-items: center;
+    
+}
+
+.container-product .card-p:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3);
+}
+
+.container-product .card-p img {
+    width: 265px;
+    height: 270px;
+}
+
+.container-product .card-p h2 {
+    font-size: 18px;
+    color: black;
+    line-height: 1rem;
+    padding-top: 10px;
+}
+
+.container-product .card-p button {
+    border-radius: 6px;
+    width: 100px;
+    color: rgb(18, 50, 18);
+    background-color: #fff;
+    margin: 5px;
+    padding: 4px;
+}
+
+.container-product .card-p button:hover {
+    background-color: rgba(152, 36, 85, 0.5);
+    color: #fff;
+}
+
+/*PAGE CARE*/
+
+.text-1 img {
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+}
+
+.text-1 {
+    display: flex;
+    margin: 20px 100px;
+    padding: 20px;
+}
+
+.text-1 h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Kalam', cursiva;
+}
+
+.text-1 p {
+    margin: 0px 50px;
+    text-align: justify;
+}
+
+/*PAGE ABOUT*/
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+.video video {
+    align-items: center;
+    width: 850px;
+    height: 500px;
+}
+
+.about {
+    display: flex;
+    text-align: justify;
+}
+
+.about p {
+    padding: 30px 100px;
+}
+
+.about-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-img img {
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+}
+
+.about-img .img-center {
+    width: 400px;
+    height: 250px;
+}
