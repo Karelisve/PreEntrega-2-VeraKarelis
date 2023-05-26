@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 760px){
     .titulo-banner {
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding-left: 10px;
     }
 }
@@ -85,7 +85,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 760px) {
     .parrafo-banner{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         text-align: center;
 }
 }
