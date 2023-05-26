@@ -22,6 +22,7 @@
     justify-content: end;
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: black;
@@ -60,7 +61,7 @@ nav ul li a:hover {
 
 .banner h1 {
     margin-bottom: 10px;
-    font-size: 6rem;
+    font-size: clamp(4rem, 5vw, 5rem);
     font-weight: 30px;
     font-family: 'Kalam', cursiva;
     letter-spacing: 10px;
@@ -68,15 +69,28 @@ nav ul li a:hover {
 }
 
 
-.banner p {
+.parrafo-banner {
     font-size: 2rem;
     text-align: center;
     padding-left: 50px;
-
-
 }
+
+@media screen and (max-width: 760px) {
+    .parrafo-banner{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
 .banner-1 {
     margin-left: 10px;
+}
+
+@media screen and (max-width: 760px){
+    banner-1 {
+        width: 700px;
+        height: 34px;
+    }
 }
 
 
