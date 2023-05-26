@@ -22,7 +22,6 @@
     justify-content: end;
 }
 
-
 nav ul li a {
     text-decoration: none;
     color: black;
@@ -55,7 +54,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     background-attachment: local;
-    padding: 120px;
+    padding: 80px;
 } 
 
 
@@ -68,12 +67,15 @@ nav ul li a:hover {
     color: rgb(62, 92, 73);
 }
 
-@media screen and (max-width: 760px){
+
+@media screen and (max-width: 1000px){
     .titulo-banner {
-        font-size: 1.5rem;
-        padding-left: 10px;
+        font-size: 2.5rem;
+        margin-left: 15px;
     }
 }
+
+
 
 
 .parrafo-banner {
@@ -81,27 +83,36 @@ nav ul li a:hover {
     text-align: center;
     padding-bottom: 0;
     margin: 0px;
+    padding-left: 10px;
+    margin-left: 15px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
     .parrafo-banner{
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-align: center;
-}
+        
+    }
 }
 
 
-.banner-1 {
-    margin-left: 10px;
+.banner-1:nth-child(2) {
+    margin-bottom: 10px;
+    margin: 5px;
 }
 
 @media screen and (max-width: 760px){
-    banner-1 {
+    .banner-1 {
         width: 700px;
         height: 34px;
     }
 }
 
+@media screen and (max-width: 1000px){
+    .banner-link {
+        font-size: 0.8rem;
+    }
+}
 
 .banner-1 a {
     text-decoration: none;
@@ -113,6 +124,7 @@ nav ul li a:hover {
     background-color: #fff;
     color: black;
     box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
+
     
 }
 
@@ -127,7 +139,7 @@ nav ul li a:hover {
 .info {
     background-color: rgba(86, 148, 110, 0.2);
     color: rgb(62, 92, 73);
-    padding: 20px 100px;
+    padding: 20px 80px;
     text-align: center;
     
 }
