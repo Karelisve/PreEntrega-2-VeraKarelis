@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 760px){
     .titulo-banner {
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 10px;
     }
 }
