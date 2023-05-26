@@ -71,7 +71,8 @@ nav ul li a:hover {
 .banner p {
     font-size: 2rem;
     text-align: center;
-        padding-left: 50px;
+    padding-left: 50px;
+
 
 }
 .banner-1 {
@@ -111,6 +112,7 @@ nav ul li a:hover {
 
 .info p {
     margin-top: 10px;
+    color: black;
 }
 
 
