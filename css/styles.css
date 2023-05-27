@@ -68,15 +68,12 @@ nav ul li a:hover {
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
     .titulo-banner {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-left: 15px;
     }
 }
-
-
-
 
 .parrafo-banner {
     font-size: 2rem;
@@ -87,7 +84,7 @@ nav ul li a:hover {
     margin-left: 15px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .parrafo-banner{
         font-size: 1rem;
         text-align: center;
@@ -101,7 +98,7 @@ nav ul li a:hover {
     margin: 5px;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 900px){
     .banner-1 {
         width: 700px;
         height: 34px;
@@ -141,15 +138,29 @@ nav ul li a:hover {
     color: rgb(62, 92, 73);
     padding: 20px 80px;
     text-align: center;
-    
+}
+.info h2 {
+    font-size: 25px;
 }
 
+@media screen and (max-width: 900px){
+    .info h2 {
+        font-size: 15px;
+    }
+}
 
 .info p {
     margin-top: 10px;
     color: black;
+    font-size: 1rem;
 }
 
+@media screen and (max-width: 900px){
+    .info p {
+        font-size: 13px;
+
+    }
+}
 
 /*INDEX MAIN SECTION 3*/
 .cards-title {
@@ -299,12 +310,17 @@ footer .autor p:nth-child(2):hover {
 /*Pagina Productos*/
 .page-title {
     text-align: center;
-    font-size: 10px;
     padding-top: 10px;
     font-family: 'Kalam', cursiva;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     background-color: rgb(158, 189, 170);
+}
+
+.page-title p {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding-bottom: 10px;
 }
 
 
@@ -321,3 +337,94 @@ footer .autor p:nth-child(2):hover {
     padding: 0px;
     color: black;
 }
+
+
+/*CONTACTO*/
+
+.form {
+    margin: 30px 0px 30px 0px;
+    box-shadow: 0px 0px 20px rgba(82, 114, 94, 0.5);
+    border-radius: 8px;
+    padding: 30px 20px;
+    background-color: rgba(110, 155, 127, 0.2);
+}
+
+
+.form .inputs {
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.inputs label {
+    margin: 10px 10px 10px;
+    color: rgb(62, 92, 73);
+    font-size: 15px;
+    
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;;
+}
+
+.input-button button {
+    border-radius: 8px;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color:#fff;
+    color: black;
+}
+
+.input-button button:hover {
+    color:rgb(54, 3, 28);
+    box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
+    background-color: rgb(255, 248, 251);
+}
+
+/*FORMULARIO - DETALLES DE CONTACTO*/
+.contact-details {
+    margin: 30px 10px;
+}
+
+.contact-details h2 {
+    background-color: #cbdbd0;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Kalam', cursiva;
+    padding: 10px;
+}
+
+.contact-details .details-1 {
+    background-color: rgba(110, 155, 127, 0.2);
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.details-1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.details-1 p {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(110, 155, 127, 0.2);
+    border-radius: 8px;
+}
+
+.iframe-map {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+

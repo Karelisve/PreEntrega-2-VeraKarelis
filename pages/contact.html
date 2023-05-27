@@ -36,61 +36,62 @@
         </header>
             <main>
                 <section>
-                    <div class="product-title">
+                    <div class="page-title">
                         <h1>Contáctenos</h1>
                         <p>Estamos para ayudarle, dejenos su mensaje y contestaremos a la brevedad.</p>
                     </div>
-                    <div class="form">
-                        <form action="" >
-                                <div class="inputs">
-                                    <label for="name">Nombre</label>
-                                    <input type="text" name="name" placeholder="¿Cómo te llamas?" required>
+                </section>
+                <section class="container">
+                    <div class="row">
+                        <form class="form col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" action="" >
+                                <div class="inputs form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" required>
+                                    <label for="floatingInput">Nombre</label>
+                                </div>
+                                <div class="inputs form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Apellido" required>
+                                    <label for="floatingInput">Apellido</label>
+                                </div>
+                                <div class="inputs form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                                    <label for="floatingInput">Correo Electrónico</label>
+                                </div>
+                                <div class="inputs form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="223-5012222" maxlength="13" required>
+                                    <label for="floatingInput">Teléfono</label>
                                 </div>
                                 <div class="inputs">
-                                    <label for="phone">Teléfono</label>
-                                    <input type="text" name="phone" placeholder="223-1555555" required>
-                                </div>
-                                <div class="inputs">
-                                    <label for="email">Tu Email</label>
-                                    <input type="text" name="email" placeholder="ejemplo@gmail.com" required>
-                                </div>
-                                <div class="inputs">
-                                    <label for="message">Mensaje</label>
-                                    <textarea name="message" id="mensaje" cols="30" rows="5"  maxlength="250" placeholder="Mensaje"></textarea>
+                                    <textarea class="form-control" name="message" id="floatingInput" cols="30" rows="4"  maxlength="250" 
+                                    placeholder="Mensaje" aria-label="textarea"></textarea>
                                 </div>
                                 <div class="input-button">
-                                    <button type="submit">Enviar</button>
-                                </div>
+                                    <button class="btn" type="submit">Enviar</button>
+                                </div>  
                         </form>
-                    </div>
-                </section>
-                    <section>
-                        <div class="container-details">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                             <div class="contact-details">
-                                <div>
+                                <div class="title-contact-details">
                                     <h2>Detalles de contacto</h2>
                                 </div>
                                 <div class="details-1">
                                     <img src="../img/phone-call-solid-24.svg" alt="logo de telefono">
-                                    <h3>Llámenos</h3>
-                                    <p>+54-9-2231555555</p>
+                                    <p><strong>Llámenos</strong> +54-9-2231555555</p>
                                 </div>
                                 <div class="details-1">
                                     <img src="../img/mail.svg.svg" alt="logo de correo">
-                                    <h3>Envienos un correo</h3>
-                                    <p>ejemplo@gmail.com</p>
+                                    <p><strong>Envienos un correo</strong> ejemplo@gmail.com</p>
                                 </div>
                                 <div class="details-1">
                                     <img src="../img/googlemaps.svg" alt="logo de google maps" class="maps">
-                                    <h3>Nuestra oficina</h3>
-                                    <p>Calle 126, Mar del plata, Argentina</p>
+                                    <p><strong>Nuestra oficina</strong> Calle 126, Mar del plata, Argentina</p>
                                 </div>
-                            </div>    
-                            <div class="iframe-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.75237989912!2d-57.68293422310237!3d-38.01740265622042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1682274206457!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="iframe-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.75237989912!2d-57.68293422310237!3d-38.01740265622042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1682274206457!5m2!1ses!2sar" width="700" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
             </main>
             <footer>
                 <div class="social">
