@@ -174,8 +174,8 @@ nav ul li a:hover {
 
 
 .cards img {
-    width: 250px;
-    height: 340px;
+    width: 240px;
+    height: 330px;
 }
 
 .cards h2 {
@@ -296,3 +296,32 @@ footer .autor p:nth-child(2):hover {
     transition: .4s linear;
 }
 
+/*Pagina Productos*/
+.page-title {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    font-family: 'Kalam', cursiva;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 189, 170);
+}
+
+
+.product-title {
+    font-size: 1.5rem;
+    color: rgb(62, 92, 73);
+    padding: 30px 5px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.product-title p:last-child {
+    font-size: 1rem;
+    padding: 0px;
+    color: black;
+}
+
+.fondo-productos {
+    background-color: rgb(225, 225, 225);
+}
