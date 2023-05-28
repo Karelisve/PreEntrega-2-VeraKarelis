@@ -57,7 +57,6 @@ nav ul li a:hover {
     padding: 80px 40px;
 } 
 
-
 .titulo-banner {
     margin-bottom: 10px;
     font-size: 5rem;
@@ -66,7 +65,6 @@ nav ul li a:hover {
     letter-spacing: 10px;
     color: rgb(62, 92, 73);
 }
-
 
 @media screen and (max-width: 900px){
     .titulo-banner {
@@ -91,7 +89,6 @@ nav ul li a:hover {
         margin-left: 15px;
     }
 }
-
 
 .banner-1:nth-child(2) {
     margin-bottom: 10px;
@@ -121,8 +118,6 @@ nav ul li a:hover {
     background-color: #fff;
     color: black;
     box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
-
-    
 }
 
 .banner-1 a:hover {
@@ -158,7 +153,6 @@ nav ul li a:hover {
 @media screen and (max-width: 900px){
     .info p {
         font-size: 13px;
-
     }
 }
 
@@ -323,7 +317,6 @@ footer .autor p:nth-child(2):hover {
     padding-bottom: 10px;
 }
 
-
 .product-title {
     font-size: 1.5rem;
     color: rgb(62, 92, 73);
@@ -338,7 +331,6 @@ footer .autor p:nth-child(2):hover {
     color: black;
 }
 
-
 /*CONTACTO*/
 
 .form {
@@ -349,13 +341,11 @@ footer .autor p:nth-child(2):hover {
     background-color: rgba(110, 155, 127, 0.2);
 }
 
-
 .form .inputs {
     border: none;
     padding: 10px;
     margin: 0;
 }
-
 
 .inputs label {
     margin: 10px 10px 10px;
@@ -493,4 +483,56 @@ footer .autor p:nth-child(2):hover {
         display: flex;
         justify-content: center;
     }
+}
+
+/*PAGE ABOUT*/
+.video {
+    display: flex;
+    justify-content: center;
+}
+.video video {
+    align-items: center;
+    width: 850px;
+    height: 500px;
+}
+
+@media screen and (max-width: 850px) {
+    .video {
+        width: 380px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .video video {
+        width: 550px;
+        height: 200px;
+    }
+    .about-img img {
+        width: 150px;
+        height: 250px;
+    }
+}
+
+.about-img {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img:hover {
+    background-color: rgba(224, 199, 209, 0.5);
+    border-radius: 20px;
+}
+
+.about-img img {
+    width: 250px;
+    height: 350px;
+}
+
+.about-img .img-center {
+    width: 400px;
+    height: 250px;
 }
