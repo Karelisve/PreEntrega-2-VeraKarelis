@@ -478,6 +478,12 @@ footer .autor p:nth-child(2):hover {
     }
 }
 
+@media screen and (max-width:460px) {
+    .parrafo-cuidado {
+        height: 1020px;
+    }
+}
+
 .parrafo-cuidado {
     text-indent: 30px;
     text-transform: initial;
