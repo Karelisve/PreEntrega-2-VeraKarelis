@@ -429,8 +429,7 @@ footer .autor p:nth-child(2):hover {
 
 /*PAGE CARE*/
 .imagen-cuidado {
-    margin-top: 40px;
-    margin-left: 30px;
+    
     width: 290px;
     height: 410px;
     background-color: rgba(224, 199, 209, 0.5);
@@ -456,34 +455,6 @@ footer .autor p:nth-child(2):hover {
     }
 }
 
-@media screen and (max-width: 990px) {
-    .imagen-cuidado{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .parrafo-cuidado {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 600px;
-        height: 600px;
-    }
-}
-
-@media screen and (max-width:760px) {
-    .parrafo-cuidado {
-        height: 750px;
-    }
-}
-
-@media screen and (max-width:460px) {
-    .parrafo-cuidado {
-        height: 1020px;
-    }
-}
-
 .parrafo-cuidado {
     text-indent: 30px;
     text-transform: initial;
@@ -501,5 +472,25 @@ footer .autor p:nth-child(2):hover {
     .parrafo-cuidado {
         font-size: 15px;
         text-align: justify;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .parrafo-cuidado {
+        font-size: 14px;
+        text-align: justify;
+        padding: 5px;
+        width: 550px;
+    }
+    .parrafo-cuidado h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    article {
+        display: flex;
+        justify-content: center;
     }
 }
